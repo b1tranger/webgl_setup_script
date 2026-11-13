@@ -1,0 +1,32 @@
+# Build output & compiled WebAssembly binaries
+build/
+build-web/
+*.wasm
+*.data
+*.zip
+dist/
+
+# Object files & executables
+*.o
+*.obj
+*.exe
+
+# Local caches
+em_cache/
+.emscripten_cache/
+cache/
+
+# Emscripten tools (if cloned locally)
+Dependencies/emsdk/downloads/
+Dependencies/emsdk/cache/
+
+# IDE / Editor folders
+.vscode/
+.vs/
+.idea/
+
+# OS metadata
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
